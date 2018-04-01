@@ -26,7 +26,7 @@ export default {
         ...storeRes.map(e => ({
           value: {name: 'store', params: {groupId: e.group, storeId: e.id}},
           label: e.name,
-          icon: 'fa-shopping-cart',
+          icon: 'fa-bicycle',
         })),
         ...groupRes.map(e => ({
           value: {name: 'group', params: {groupId: e.id}},
