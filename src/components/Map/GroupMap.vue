@@ -75,7 +75,7 @@ export default {
         latLng: L.latLng(store.latitude, store.longitude),
         id: this.storeMarkerId(store.id),
         icon: L.AwesomeMarkers.icon({
-          icon: 'shopping-cart',
+          icon: 'bicycle',
           markerColor: store.ui.color,
           prefix: 'fa',
         }),
