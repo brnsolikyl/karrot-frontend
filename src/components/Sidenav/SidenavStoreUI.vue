@@ -4,7 +4,7 @@
     :expanded="expanded"
   >
     <template slot="icon">
-      <q-icon name="fa-fw fa-shopping-cart" />
+      <q-icon name="fa-fw fa-bicycle" />
     </template>
     <dev
       slot="tools"
@@ -27,7 +27,7 @@
     >
       <q-item :to="{name: 'storePickups', params: { storeId }}">
         <q-item-side class="text-center">
-          <q-icon name="fa-shopping-basket" />
+          <q-icon name="fa-calendar" />
         </q-item-side>
         <q-item-main>
           {{ $t("GROUP.PICKUPS") }}
