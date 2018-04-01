@@ -79,11 +79,11 @@
     "DESCRIPTION_VERBOSE": "Group description, visible for members",
     "PUBLIC_DESCRIPTION": "Text you see before joining the group",
     "PASSWORD": "Enter a password here if you want to make the group private",
-    "PICKUPS": "Pickups",
+    "PICKUPS": "Events",
     "MEMBERS": "Members",
     "INACTIVE": "Inactive",
     "SHOW_INACTIVE": "Show inactive groups",
-    "STORES": "Stores",
+    "STORES": "Places",
     "HISTORY": "History",
     "DESCRIPTION": "Description",
     "ADDRESS": "Address",
@@ -105,36 +105,36 @@
         "DESCRIPTION": "Keep up to date with what's been happening in the group."
       },
       "daily_pickup_notification": {
-        "NAME": "Pickup notifications",
-        "DESCRIPTION": "Reminds you of your pickups, and tells you about empty or not-full pickups in the next day"
+        "NAME": "Event notifications",
+        "DESCRIPTION": "Reminds you of your events, and tells you about available events in the next day"
       }
     },
     "PLAYGROUND_INFO": "This is a playground group, you can't break anything. Explore, click around and have fun!",
-    "JOIN_PLAYGROUND": "Join the playground group to explore karrot"
+    "JOIN_PLAYGROUND": "Join the playground group to explore bikearoot"
   },
   "GROUPMAP": {
     "TITLE": "Map",
     "SHOW_USERS": "Show users",
     "HIDE_USERS": "Hide users",
-    "SHOW_STORES": "Show stores",
-    "HIDE_STORES": "Hide stores",
+    "SHOW_STORES": "Show places",
+    "HIDE_STORES": "Hide places",
     "SET_LOCATION": "Set location",
     "FULL_SCREEN": "Show full screen"
   },
   "STOREDETAIL": {
-    "EDIT": "Edit store",
-    "MANAGE": "Check and manage the pickups",
-    "ARCHIVED": "This store has been archived",
-    "INACTIVE": "This store is currently not cooperating.",
+    "EDIT": "Edit places",
+    "MANAGE": "Check and manage the events",
+    "ARCHIVED": "This place has been archived",
+    "INACTIVE": "This place is currently not cooperating.",
     "CHANGE_STATUS": "You can change the status on the settings page.",
-    "NO_DESCRIPTION": "This store does not have a description yet"
+    "NO_DESCRIPTION": "This place does not have a description yet"
   },
   "STOREEDIT": {
     "NAME": "Name",
     "STATUS":"Status",
     "DESCRIPTION": "Description",
     "ADDRESS": "Address",
-    "WEEKS_IN_ADVANCE": "How many weeks in advance should recurring pickup dates be shown?",
+    "WEEKS_IN_ADVANCE": "How many weeks in advance should recurring event dates be shown?",
     "DIALOGS": {
       "ARCHIVE": {
         "TITLE": "Archive store",
@@ -143,18 +143,18 @@
       }
     },
     "RESTORE": "Restore",
-    "SHOW_ARCHIVED": "Show archived stores",
-    "HIDE_ARCHIVED": "Hide archived stores"
+    "SHOW_ARCHIVED": "Show archived places",
+    "HIDE_ARCHIVED": "Hide archived places"
   },
   "PICKUPMANAGE": {
-    "TITLE": "Manage pickups",
-    "SERIES": "Recurring pickups",
-    "SINGLE": "One-time pickups",
-    "UPCOMING_PICKUPS_IN_SERIES": "Upcoming pickups in this series"
+    "TITLE": "Manage events",
+    "SERIES": "Recurring events",
+    "SINGLE": "One-time events",
+    "UPCOMING_PICKUPS_IN_SERIES": "Upcoming events in this series"
   },
   "PICKUPDELETE": {
-    "DELETE_SERIES_TITLE": "Delete recurring pickup date",
-    "DELETE_SERIES_TEXT": "Do you really want to delete this recurring pickup date? This will also delete all one-time pickup dates that belong to this recurring pickup date (except where people joined already)."
+    "DELETE_SERIES_TITLE": "Delete recurring event date",
+    "DELETE_SERIES_TEXT": "Do you really want to delete this recurring event date? This will also delete all one-time event dates that belong to this recurring event date (except where people joined already)."
   },
   "USERDETAIL": {
     "DISPLAY_NAME": "Name",
@@ -191,8 +191,8 @@
     "CHANGE_GROUP": "Change group"
   },
   "SIDENAV": {
-    "INFO_SUB": "How to build your foodsaving group",
-    "BLOG_SUB": "All news around the karrot software",
+    "INFO_SUB": "About Bike Kitchen Gothenburg",
+    "BLOG_SUB": "All news around the software",
     "GIT_SUB": "See our code!"
   },
   "LOGIN": {
@@ -219,7 +219,7 @@
     "WEEKLY": "Weekly",
     "CUSTOM": "Custom",
     "WEEKDAYS": "Weekdays",
-    "WEEKDAYS_HELPER": "On which days should the pick-up take place?",
+    "WEEKDAYS_HELPER": "On which days should the event take place?",
     "RRULE": "Recurrence rule",
     "RRULE_HELPER": "Type in a valid {ruleHelper}, e.g. {ruleExample} or {ruleExample2}",
     "RRULE_HELPER_URL": "iCalender rule",
@@ -228,49 +228,49 @@
     "STARTDATE": "Start date",
     "STARTDATE_HELPER": "When should the series start?",
     "TIME": "Time",
-    "TIME_HELPER": "When should the pick-up take place?",
+    "TIME_HELPER": "When should the event take place?",
     "DATE": "Date",
-    "DATE_HELPER": "When should the pick-up take place?",
+    "DATE_HELPER": "When should the event take place?",
     "MAX_COLLECTORS": "Max Slots",
-    "MAX_COLLECTORS_HELPER": "How many people should participate in the pick-up?",
+    "MAX_COLLECTORS_HELPER": "How many people should participate in the event?",
     "COMMENT": "Additional information",
-    "COMMENT_HELPER": "What should people know when signing up to this pick-up?",
-    "DELETION_FORBIDDEN_HELPER": "This pick-up can't be deleted because people already signed up for it",
+    "COMMENT_HELPER": "What should people know when signing up to this event?",
+    "DELETION_FORBIDDEN_HELPER": "This event can't be deleted because people already signed up for it",
     "UNLIMITED": "unlimited"
   },
   "CREATESTORE": {
-    "TITLE": "Create a new store"
+    "TITLE": "Create a new place"
   },
   "PICKUPLIST": {
-    "AVAILABLE": "There is one pickup in the next days waiting for you! | There are {count} pickups in the next days waiting for you!",
-    "AVAILABLE_FEEDBACK": "You can give feedback to a pickup | {count} pickups await your feedback",
-    "JOINEDNOTICE": "You have one upcoming pickup | You have {count} upcoming pickups",
+    "AVAILABLE": "There is one event in the next days waiting for you! | There are {count} events in the next days waiting for you!",
+    "AVAILABLE_FEEDBACK": "You can give feedback to an event | {count} events await your feedback",
+    "JOINEDNOTICE": "You have one upcoming event | You have {count} upcoming events",
     "ITEM": {
       "LEAVE": "Leave",
       "JOIN": "Join",
-      "JOIN_CONFIRMATION_HEADER": "Join Pickup",
-      "JOIN_CONFIRMATION_TEXT": "Are you sure you have time to pick up on {date}?",
-      "LEAVE_CONFIRMATION_HEADER": "Leave Pickup",
-      "LEAVE_CONFIRMATION_TEXT": "Are you really sure the others can do the pickup without you?"
+      "JOIN_CONFIRMATION_HEADER": "Join Event",
+      "JOIN_CONFIRMATION_TEXT": "Are you sure you have time to participate on {date}?",
+      "LEAVE_CONFIRMATION_HEADER": "Leave Event",
+      "LEAVE_CONFIRMATION_TEXT": "Are you really sure the others can make it without you?"
     },
-    "NONE": "No upcoming pickups",
-    "NONE_HINT": "You can create a new pickup on the store page.",
-    "STORE_NONE_HINT": "You can create a new pickup on the pickup manage page."
+    "NONE": "No upcoming events",
+    "NONE_HINT": "You can create a new event on the places page.",
+    "STORE_NONE_HINT": "You can create a new event on the event manage page."
   },
   "FEEDBACKLIST": {
-    "SAVED_FOOD": "At least 1kg was saved here. Thank you! | People gave feedback for {amount}kg of saved food already! Keep up the great work!",
+    "SAVED_FOOD": "At least 1 bike was saved here. Thank you! | People gave feedback for {amount} of saved/fixed bikes already! Keep up the great work!",
     "GIVE_FEEDBACK": "Give feedback",
     "NONE": "No feedback yet",
     "NONE_HINT": "This page will be filled once more feedback is available",
     "NO_DONE_PICKUPS": "All done!",
-    "NO_DONE_PICKUPS_HINT": "You currently have no pickups to give feedback to. Why not join another pickup?"
+    "NO_DONE_PICKUPS_HINT": "You currently have no events to give feedback to. Why not join another event?"
   },
   "PICKUP_FEEDBACK": {
     "TITLE": "Feedback",
-    "HEADER": "Thank you for your pickup!",
+    "HEADER": "Thank you for your event!",
     "EDIT": "Edit feedback",
-    "SUBTITLE": "You can provide feedback for your pickup here",
-    "AMOUNT": "Amount of food all of you were able to save (in kg)",
+    "SUBTITLE": "You can provide feedback for your event here",
+    "AMOUNT": "Amount of bikes all of you were able to save or fix",
     "COMMENT": "Comment",
     "COMMENT_PLACEHOLDER": "Was everything fine? Did everyone show up? Your comment here...",
     "PREVIOUS": "Previous feedback for {store}"
@@ -309,19 +309,19 @@
     "GROUP_MODIFY": "changed the settings of this group",
     "GROUP_JOIN": "joined this group",
     "GROUP_LEAVE": "left this group",
-    "STORE_CREATE": "created store {name}",
-    "STORE_MODIFY": "changed the settings of store {name}",
-    "STORE_DELETE": "deleted store {name}",
-    "PICKUP_CREATE": "created a new one-time pick-up",
-    "PICKUP_MODIFY": "changed the settings of a pick-up",
-    "PICKUP_DELETE": "deleted a pick-up",
-    "SERIES_CREATE": "created a new recurring pick-up",
-    "SERIES_MODIFY": "changed the settings of a recurring pick-up",
-    "SERIES_DELETE": "deleted a recurring pick-up",
-    "PICKUP_DONE": "did a pick-up at {storeName}",
-    "PICKUP_MISSED": "A pickup at {storeName} was missed!",
-    "PICKUP_JOIN": "signed up to do a pick-up at {storeName}",
-    "PICKUP_LEAVE": "stepped back from doing a pick-up at {storeName}",
+    "STORE_CREATE": "created place {name}",
+    "STORE_MODIFY": "changed the settings of place {name}",
+    "STORE_DELETE": "deleted place {name}",
+    "PICKUP_CREATE": "created a new one-time event",
+    "PICKUP_MODIFY": "changed the settings of an event",
+    "PICKUP_DELETE": "deleted a event",
+    "SERIES_CREATE": "created a new recurring event",
+    "SERIES_MODIFY": "changed the settings of a recurring event",
+    "SERIES_DELETE": "deleted a recurring event",
+    "PICKUP_DONE": "participated at {storeName}",
+    "PICKUP_MISSED": "An event at {storeName} was missed!",
+    "PICKUP_JOIN": "signed up to participate at {storeName}",
+    "PICKUP_LEAVE": "stepped back from participating at {storeName}",
     "NOTHING_HAPPENEND": "Nothing happened so far...",
     "DETAILS": "More information"
   },
@@ -350,16 +350,16 @@
     "MINOR_EDIT": "Minor edit?",
     "MINOR_EDIT_HELPER": "Typos, formatting, etc... people will not be asked to re-agree",
     "BLURB1": "You don't have an agreement yet!",
-    "BLURB2": "If you add one then people will have to agree to it before they can do pickups.",
+    "BLURB2": "If you add one then people will have to agree to it before participating.",
     "DIALOGS": {
       "REPLACE": {
         "TITLE": "Change agreement?",
-        "MESSAGE": "Everyone will have to agree again before they can signup for pickups",
+        "MESSAGE": "Everyone will have to agree again before they participate",
         "CONFIRM": "Yes, change agreement"
       },
       "REMOVE": {
         "TITLE": "Remove agreement?",
-        "MESSAGE": "This means anyone will be able to do a pickup",
+        "MESSAGE": "This means anyone will be able to participate",
         "CONFIRM": "Yes, remove agreement"
       }
     }
@@ -382,10 +382,10 @@
     }
   },
   "STORESTATUS":{
-    "ACTIVE": "Co-operating",
+    "ACTIVE": "Bike Kitchen",
     "CREATED": "Just created",
-    "NEGOTIATING": "Negotiating",
-    "DECLINED": "Don't want to cooperate",
+    "NEGOTIATING": "Pickups of old bikes",
+    "DECLINED": "Inactive",
     "ARCHIVED": "Archived"
   }
 }
