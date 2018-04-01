@@ -25,7 +25,7 @@ storiesOf('Map', module)
           {
             latLng: latLng(storesMock[0]),
             icon: L.AwesomeMarkers.icon({
-              icon: 'shopping-cart',
+              icon: 'bicycle',
               markerColor: 'blue',
               prefix: 'fa',
             }),
@@ -43,7 +43,7 @@ storiesOf('Map', module)
             latLng: latLng(storesMock[1]),
             id: 'marker1',
             icon: L.AwesomeMarkers.icon({
-              icon: 'shopping-cart',
+              icon: 'bicycle',
               markerColor: 'blue',
               prefix: 'fa',
             }),
@@ -52,7 +52,7 @@ storiesOf('Map', module)
             latLng: latLng(storesMock[3]),
             id: 'marker2',
             icon: L.AwesomeMarkers.icon({
-              icon: 'shopping-cart',
+              icon: 'bicycle',
               markerColor: 'blue',
               prefix: 'fa',
             }),
