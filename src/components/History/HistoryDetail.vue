@@ -69,7 +69,7 @@
         v-if="entry.store && entry.store.name"
         dense
       >
-        <q-item-side icon="fa-fw fa-shopping-cart" />
+        <q-item-side icon="fa-fw fa-bicycle" />
         <q-item-main>
           <q-item-tile label>
             <router-link :to="{name: 'store', params: { groupId: entry.store.group, storeId: entry.store.id }}">
