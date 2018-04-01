@@ -79,7 +79,7 @@ export default {
         return {
           latLng: L.latLng(latitude, longitude),
           icon: L.AwesomeMarkers.icon({
-            icon: 'shopping-cart',
+            icon: 'bicycle',
             markerColor: 'blue',
             prefix: 'fa',
           }),
