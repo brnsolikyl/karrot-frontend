@@ -44,7 +44,7 @@
         </q-item>
         <q-item :to="{name: 'groupPickups'}">
           <q-item-side class="text-center">
-            <q-icon name="fa-shopping-basket" />
+            <q-icon name="fa-calendar" />
           </q-item-side>
           <q-item-main>
             {{ $t("GROUP.PICKUPS") }}
