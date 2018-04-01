@@ -5,7 +5,7 @@
       color="secondary"
       class="generic-padding notice no-margin-bottom"
     >
-      <i class="fa fa-shopping-basket on-left"/>
+      <i class="fa fa-calendar on-left"/>
       {{ $tc('PICKUPLIST.JOINEDNOTICE', pickups.length, { count: pickups.length }) }}
       <div
         class="card-arrow"
