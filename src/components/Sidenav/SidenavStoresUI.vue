@@ -4,7 +4,7 @@
     :expanded="expanded"
   >
     <template slot="icon">
-      <q-icon name="fa-fw fa-shopping-cart" />
+      <q-icon name="fa-fw fa-bicycle" />
     </template>
     <template slot="name">
       {{ $t('GROUP.STORES') }}
