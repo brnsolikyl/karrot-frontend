@@ -73,7 +73,7 @@
               @show="makeVisible('pickup', pickup.id)"
               :key="pickup.id"
               :label="seriesPickupLabel(series, pickup)"
-              icon="fa-shopping-basket"
+              icon="fa-calendar-check"
             >
               <pickup-edit
                 v-if="visible.pickup[pickup.id]"
