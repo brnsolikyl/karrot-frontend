@@ -98,7 +98,7 @@
       <q-card-title>
         <h5>
           <i
-            class="icon fa fa-shopping-basket on-left"
+            class="icon fa fa-calendar-check on-left"
             aria-hidden="true"
           />
           {{ $t('PICKUPMANAGE.SINGLE') }}
