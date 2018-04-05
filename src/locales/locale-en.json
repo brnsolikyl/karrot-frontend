@@ -258,7 +258,7 @@
     "STORE_NONE_HINT": "You can create a new event on the event manage page."
   },
   "FEEDBACKLIST": {
-    "SAVED_FOOD": "At least 1 bike was saved here. Thank you! | People gave feedback for {amount} of saved/fixed bikes already! Keep up the great work!",
+    "SAVED_FOOD": "At least 1 bike was saved here. Thank you! | People gave feedback for {amount} saved/fixed bikes already! Keep up the great work!",
     "GIVE_FEEDBACK": "Give feedback",
     "NONE": "No feedback yet",
     "NONE_HINT": "This page will be filled once more feedback is available",
@@ -267,7 +267,7 @@
   },
   "PICKUP_FEEDBACK": {
     "TITLE": "Feedback",
-    "HEADER": "Thank you for your event!",
+    "HEADER": "Thank you for your participation!",
     "EDIT": "Edit feedback",
     "SUBTITLE": "You can provide feedback for your event here",
     "AMOUNT": "Amount of bikes all of you were able to save or fix",
