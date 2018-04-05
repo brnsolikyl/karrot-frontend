@@ -1,6 +1,6 @@
 // sorted alphabetically
 const locales = {
-  
+
   en: {
     name: 'English',
     locale: 'en',
@@ -9,7 +9,6 @@ const locales = {
     dateFnsLocale: () => import('date-fns/locale/en'),
   },
 
-  
   sv: {
     name: 'Svenska',
     locale: 'sv',
@@ -30,14 +29,14 @@ export function messages (locale) {
   switch (locale) {
     case 'en': return locales.en.messages()
     case 'sv': return locales.sv.messages()
-      }
+  }
 }
 
 export function intlLocale (locale) {
   switch (locale) {
     case 'en': return locales.en.IntlData()
     case 'sv': return locales.sv.IntlData()
-    }
+  }
 }
 
 export function dateFnsLocale (locale) {
