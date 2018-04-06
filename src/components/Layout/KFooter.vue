@@ -10,32 +10,26 @@
       >
         <img
           class="shadow"
-          src="~@/assets/carrot-logo.svg"
+          src="~@/assets/ck-logo.jpg"
         >
       </div>
       <div class="column col-md-4">
         <div>
-          <a href="https://github.com/yunity/karrot-frontend">
+          <a href="https://github.com/brnsolikyl/karrot-to-bike-kitchen/">
             <i class="fa fa-fw fa-github on-left" />
             {{ $t('GLOBAL.GITHUB_NOTE') }}
           </a>
         </div>
         <div>
-          <a href="https://foodsaving.world">
+          <a href="https://">
             <i class="fa fa-fw fa-globe on-left" />
             {{ $t('GLOBAL.FSWW_NOTE') }}
           </a>
         </div>
         <div>
-          <a href="https://www.facebook.com/groups/foodsaving.worldwide/">
-            <i class="fa fa-fw fa-facebook on-left" />
-            {{ $t('GLOBAL.FACEBOOK_NOTE') }}
-          </a>
-        </div>
-        <div>
-          <a href="mail:karrot@foodsaving.world">
+          <a href="mail:">
             <i class="fa fa-fw fa-envelope on-left"/>
-            karrot@foodsaving.world
+            mail@cykelkok
           </a>
         </div>
       </div>
@@ -45,20 +39,19 @@
           class="lt-md"
         >
         <div>
-          karrot
-          <a
-            v-if="release"
-            :href="release.link">
-            {{ release.name }}
+        Tool based on 
+          <a href="https://foodsaving.world/en/karrot">
+        Karrot
           </a>
+        for foodsaving
         </div>
         <div>
-          made with
-          <i class="fa fa-heart" />
-          by
-          <a href="https://foodsaving.world">
-            foodsaving worldwide
-          </a>
+          mantained with
+            <i class="fa fa-heart" />
+            by
+            <a href="https://hackonomylab.org">
+              Hackonomy lab
+            </a>
         </div>
       </div>
     </div>
