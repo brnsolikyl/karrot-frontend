@@ -4,7 +4,7 @@
     "FSWW_NOTE": "Read our info page!",
     "FACEBOOK_NOTE": "Join our Facebook Group!",
     "WARNING": "Warning",
-    "BETA_WARNING": "This website is under active development and everything is subject to change. We can't guarantee for the safety and privacy of the data you enter (but we try our best).",
+    "BETA_WARNING": "This website is only a test site for Bike Kitchens in Gothenburg to use for the coordination of pickup of bikes and voluntary work shifts. If officially adopted it can be improved and be hosted on a faster machine",
     "CONNECTION_INTERRUPTED": "Error: connection interrupted!",
     "SERVER_ERROR": "Server error",
     "INVALID_LINK": "Sorry, the link you've opened is invalid.",
@@ -192,7 +192,7 @@
   },
   "SIDENAV": {
     "INFO_SUB": "About Bike Kitchen Gothenburg",
-    "BLOG_SUB": "All news around the software",
+    "BLOG_SUB": "All news about the software",
     "GIT_SUB": "See our code!"
   },
   "LOGIN": {
