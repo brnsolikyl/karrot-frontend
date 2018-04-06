@@ -10,7 +10,7 @@
       >
         <img
           class="shadow"
-          src="~@/assets/ck-logo.jpg"
+          src="~@/assets/bike-karrot-logo.jpg"
         >
       </div>
       <div class="column col-md-4">
