@@ -89,15 +89,11 @@ export default {
     },
     amountNumber () {
       if (this.amountValue >= 1000000) {
-        return ['999+', 't']
-      }
-      if (this.amountValue >= 1000) {
-        return [Number(this.amountValue / 1000.0).toFixed(1), 't']
+        return ['999+', 'cyklar']
       }
       if (this.amountValue >= 1) {
-        return [Number(this.amountValue).toFixed(1), 'kg']
+        return [Number(this.amountValue).toFixed(1), 'cyklar']
       }
-      return [Number(this.amountValue * 1000).toFixed(0), 'g']
     },
   },
 }
