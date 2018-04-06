@@ -21,7 +21,7 @@
         :value="limitedValue"
         @input="$emit('input', arguments[0])"
         :min="0"
-        :max="70"
+        :max="100"
         :step="0.5"
         label
         snap
@@ -33,7 +33,6 @@
         v-model="valueToNumber"
         align="right"
       />
-      <span style="padding: 3px">kg</span>
     </div>
   </div>
 </template>
