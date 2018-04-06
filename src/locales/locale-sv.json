@@ -1,8 +1,8 @@
 {
   "GLOBAL": {
     "GITHUB_NOTE": "Utveckling",
-    "FSWW_NOTE": "Read our info page!",
-    "FACEBOOK_NOTE": "Join our Facebook Group!",
+    "FSWW_NOTE": "Läs vår infosida!",
+    "FACEBOOK_NOTE": "Gå med vår Facebookgrupp!",
     "WARNING": "Varning",
     "BETA_WARNING": "Denna webbsida är bara en testsida för olika cykelkök i Göteborg för att koordinera volontärspass och upphämtningar av cyklar. Om det uppkattas kan en bättre version installeras och på en snabbare maskin.",
     "CONNECTION_INTERRUPTED": "Fel: förbindelsen avbröts!",
