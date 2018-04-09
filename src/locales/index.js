@@ -1,6 +1,5 @@
 // sorted alphabetically
 const locales = {
-
   en: {
     name: 'English',
     locale: 'en',
@@ -16,7 +15,6 @@ const locales = {
     intlLocale: () => import('intl/locale-data/jsonp/sv'),
     dateFnsLocale: () => import('date-fns/locale/sv'),
   },
-
 }
 
 export default locales
