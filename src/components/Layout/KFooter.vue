@@ -39,19 +39,19 @@
           class="lt-md"
         >
         <div>
-        Tool based on 
+          Tool based on
           <a href="https://foodsaving.world/en/karrot">
-        Karrot
+            Karrot
           </a>
-        for foodsaving
+          for foodsaving
         </div>
         <div>
           mantained with
-            <i class="fa fa-heart" />
-            by
-            <a href="https://hackonomylab.org">
-              Hackonomy lab
-            </a>
+          <i class="fa fa-heart" />
+          by
+          <a href="https://hackonomylab.org">
+            Hackonomy lab
+          </a>
         </div>
       </div>
     </div>
